@@ -18,7 +18,7 @@ import java.awt.Desktop;
 
 
 public class chengePictureInMyInfoClass extends DriverClass {
-    //Alexey Voytsekhovich
+    //Alexey Voytsekhovich !
 
 
     @Test
