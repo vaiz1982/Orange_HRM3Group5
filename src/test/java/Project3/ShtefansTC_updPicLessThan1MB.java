@@ -91,6 +91,9 @@ public class ShtefansTC_updPicLessThan1MB extends DriverClass {
             e.printStackTrace();
         }
 
+        WebElement saveButton = driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div/form/div[2]/button"));
+        saveButton.click();
+
         wait(5);
 
     }
