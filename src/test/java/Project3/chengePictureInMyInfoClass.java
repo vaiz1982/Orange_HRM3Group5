@@ -15,8 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 //3 of it for jptChatTest
 import java.awt.Desktop;
-import java.io.File;
-import java.io.IOException;
+
 
 public class chengePictureInMyInfoClass extends DriverClass {
     //Alexey Voytsekhovich
