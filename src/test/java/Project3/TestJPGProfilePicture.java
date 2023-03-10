@@ -18,6 +18,7 @@ import java.util.concurrent.TimeUnit;
 public class TestJPGProfilePicture extends DriverClass {
 
     @Test(enabled = false)
+
     public void login() {
 
 
