@@ -13,13 +13,12 @@ import java.time.Duration;
 
 public class DriverClass {
 
-    public static WebDriver driver;
+    public static WebDriver driver;  // one object only
 
     @BeforeClass
     public void startingSettings() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
 
     }
@@ -31,7 +30,7 @@ public class DriverClass {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        driver.quit();
+//        driver.quit();
     }
 
     public void clickElements(WebElement element){
