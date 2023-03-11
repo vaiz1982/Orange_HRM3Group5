@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!--
+Regression Test
+
+OR-6 , OR-15 , OR-3 , OR-13 , OR-10 , OR-12 , OR-5 , OR-14-->
+
+
+<suite name="Regression Test">
+    <test name="Regression">
+        <packages>
+            <package name="Project3"></package>
+        </packages>
+
+    </test>
+</suite>

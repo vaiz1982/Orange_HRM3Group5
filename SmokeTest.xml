@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<!-- User Stories for Smoke Test;
+
+OR-15: Validate  the  working  of Login  FunctionalityTESTING
+
+OR-5: Error message on unsuccessful Employee login to OrangeHRM portal
+
+OR-12: Personal details- modification with valid values- "First Name"
+
+OR-10: Check the upload of a PNG format image
+
+OR-14: Check the upload of a JPG format image
+
+-->
+
+<suite name="Smoke Test">
+    <test name="Smoke">
+
+        <groups>
+            <run>
+                <exclude name="smoke"></exclude>
+            </run>
+        </groups>
+
+
+        <packages>
+            <package name="Project3"></package>
+        </packages>
+
+    </test>
+</suite>
+
